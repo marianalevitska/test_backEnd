@@ -41,7 +41,7 @@ const movieScheme = new Schema(
 const moviesScheme = Joi.object({
   title: Joi.string().required().pattern(titleRegExp),
   director: Joi.string().required().pattern(directorRegExp),
-  date: Joi.date().required(),
+  date: Joi.date().max("now").required(),
   favorite: Joi.boolean().default(false),
 });
 

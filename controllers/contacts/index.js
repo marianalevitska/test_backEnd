@@ -1,15 +1,15 @@
-const getContactsList = require('./getContactsList');
-const getContactById = require('./getContactById');
-const createContact = require('./createContact');
-const removeContact = require('./removeContact');
-const updateContact = require('./updateContact');
-const updateStatusContact = require('./updateStatusContact');
+const getMoviesList = require("./getMoviesList");
+const getMovieById = require("./getMovieById");
+const createMovie = require("./createMovie");
+const removeMovie = require("./removeMovie");
+const updateMovie = require("./updateMovie");
+const updateStatusMovie = require("./updateStatusMovie");
 
 module.exports = {
-    getContactsList,
-    getContactById,
-    createContact,
-    removeContact,
-    updateContact,
-    updateStatusContact,
-}
+  getMoviesList,
+  getMovieById,
+  createMovie,
+  removeMovie,
+  updateMovie,
+  updateStatusMovie,
+};
